@@ -1,2 +1,2 @@
 # SDE_Ext
-Plex UX SQL Development Editor Extension
+Plex UX SQL Development Editor Chrome Extension

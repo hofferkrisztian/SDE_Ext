@@ -1,0 +1,31 @@
+.plex-navbar-container {
+  background-color: #008c8c !important;
+}
+#SqlDevelopmentEnvironment.plex-form-content-wrapper{
+  bottom: 10px !important;
+}
+.plex-banner{
+  position: absolute !important;
+  z-index: 999 !important;
+  width: 100% !important;
+  margin:0 !important;
+}
+.Remove { 
+    font-size: 14px !important;
+    margin-left: 5px !important;
+    padding: 5px 10px !important;
+    background-color: #ff8888 !important;
+    border-radius: 15px !important;    
+}
+.ace_keyword{
+  font-weight: bold !important;
+}
+.ace_operator{
+  color: #ff0000 !important;
+}
+.ace_constant{
+  color: #d96c00 !important;
+}
+.ace_string{
+  color: #d96c00 !important;
+}

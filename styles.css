@@ -10,6 +10,12 @@
   width: 100% !important;
   margin:0 !important;
 }
+.plex-banner-warning {
+    background-color: #f6a623dd !important;
+}
+.plex-banner-success {
+    background-color: #6ec873dd !important;
+}
 .Remove { 
     font-size: 14px !important;
     margin-left: 5px !important;

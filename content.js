@@ -6,20 +6,17 @@ function capturekey(e) {
     e = e || window.event;    
     if (e.code == 'F4') {
         e.preventDefault()
-        e.stopPropagation()                
-        $(".plex-banner-close").click()
+        e.stopPropagation()                        
         $("li:contains('View Stored Procedures')").click()        
     }
     if (e.code == 'F5') {
         e.preventDefault()
-        e.stopPropagation()        
-        $(".plex-banner-close").click()
+        e.stopPropagation()                
         $("li:contains('Execute')").click()        
     }    
     if (e.code == 'F6') {
         e.preventDefault()
-        e.stopPropagation()                
-        $(".plex-banner-close").click()
+        e.stopPropagation()                        
         $("li:contains('Save Stored Procedure')").click()
     }                                    
     if (e.key === 'Escape') {

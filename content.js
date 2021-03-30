@@ -16,12 +16,12 @@ function capturekey(e) {
     if (e.code == 'F6') {
         e.preventDefault()
         $("li:contains('Save Stored Procedure')").click()
-    }                                    
-    if (e.key === 'Escape') {
-        e.preventDefault()
-        $(".plex-banner-close").click()
-    }   
+    } 
     if (e.ctrlKey && e.key == 'q') {       
        $("ul#QueryTabList > li.active").children().find("span.Remove").click()
     } 
+    //if (e.key === 'Escape') {
+    //    e.preventDefault()
+        $(".plex-banner-close").click()
+    //} 
 }

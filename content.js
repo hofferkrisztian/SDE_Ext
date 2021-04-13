@@ -20,8 +20,7 @@ function capturekey(e) {
     if (e.ctrlKey && e.key == 'q') {       
        $("ul#QueryTabList > li.active").children().find("span.Remove").click()
     } 
-    //if (e.key === 'Escape') {
-    //    e.preventDefault()
-        $(".plex-banner-close").click()
-    //} 
+    if ($(".plex-banner-close").is(":visible")) {    
+       $(".plex-banner-close").click()
+    } 
 }
